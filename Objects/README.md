@@ -9,4 +9,10 @@
 Objects are composed of attributes.  If an attribute contains a function, it is considered to be a method of the object.  Otherwise, the attribute is considered a property.
 
 ## Object Properties
+* `objectName.objectProperty = propertyValue` - syntax for adding a property to an object.
+* `var str = document.title` - title property of the document object.
+
+## Object Methods
+Methods are the functions that let the object do something or let something be done to it.  There is a small difference between a function and a method - 
+
 
