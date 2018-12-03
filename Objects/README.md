@@ -26,7 +26,15 @@ book.author = "Vuk";
 
 ```Javascript
 //Define a function which will work as a method
+function addPrice(amount) {
+    this.price = amount;
+}
 
+function book(title, author) {
+    this.title = title;
+    this.author = author;
+    this.addPrice = addPrice; //Assign that method as property.
+}
 ```
 
 
